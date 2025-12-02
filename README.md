@@ -59,8 +59,4 @@ Built using **ASP.NET Core MVC** and a public weather API.
 
 ---
 
-## 📸 Screenshots
-
-(Add a screenshot like this)
-
 
