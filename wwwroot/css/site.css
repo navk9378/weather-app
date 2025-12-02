@@ -1,0 +1,78 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://i.ibb.co/kgFzjzWj/weather-background.png')no-repeat center center fixed;
+    background-size: cover;
+}
+nav.navbar a.navbar-brand {
+    font-size: 23px;
+}
+.weather-container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 572px;
+    margin: 25px auto 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+.forecast h5 {
+    margin-top: 6px;
+    font-weight: bold;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+input#city {
+    padding: 10px;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+button#getWeather {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #2193b0;
+    color: white;
+    cursor: pointer;
+}
+
+    button#getWeather:hover {
+        background: #176b85;
+    }
+
+.result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 15px;
+    color: red;
+}
+
